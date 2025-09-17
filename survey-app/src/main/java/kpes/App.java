@@ -15,7 +15,7 @@ public class App extends Application {
         Database.createTables();
         Parent root = FXMLLoader.load(getClass().getResource("/view/dashboard.fxml"));
         Scene scene = new Scene(root);
-        Image icon = new Image(App.class.getResource("/images/icon.jpg").toExternalForm());
+        Image icon = new Image(App.class.getResource("/images/icon.png").toExternalForm());
         primaryStage.getIcons().add(icon);
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(1024);

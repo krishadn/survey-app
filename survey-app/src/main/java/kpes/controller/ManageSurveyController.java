@@ -102,7 +102,7 @@ public class ManageSurveyController {
                 Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
                 Stage dialogStage = new Stage();
-                Image icon = new Image(App.class.getResource("/images/icon.jpg").toExternalForm());
+                Image icon = new Image(App.class.getResource("/images/icon.png").toExternalForm());
                 dialogStage.getIcons().add(icon);
                 dialogStage.setTitle(String.format("Question #%d", currentPosition));
                 dialogStage.initModality(Modality.APPLICATION_MODAL);
@@ -232,7 +232,7 @@ public class ManageSurveyController {
 
         Stage stage = (Stage) thisHbox.getScene().getWindow();
         Stage dialogStage = new Stage();
-        Image icon = new Image(App.class.getResource("/images/icon.jpg").toExternalForm());
+        Image icon = new Image(App.class.getResource("/images/icon.png").toExternalForm());
         dialogStage.getIcons().add(icon);
         dialogStage.setTitle(String.format("Question #%d", question.getPosition()));
         dialogStage.initModality(Modality.APPLICATION_MODAL);
