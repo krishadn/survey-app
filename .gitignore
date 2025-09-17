@@ -5,3 +5,4 @@ survey-app/dependency-reduced-pom.xml
 survey-client/.mvn
 survey-client/target
 survey-client/dependency-reduced-pom.xml
+survey.db
