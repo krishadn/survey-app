@@ -40,10 +40,10 @@ java -jar "survey-app-1.0-SNAPSHOT.jar"
 ```
 
 ### Application Screenshots
-![Dashboard](.\sample_ss\sm1.PNG "Dashboard")
-![Management](.\sample_ss\sm2.PNG "Management")
-![Add Question](.\sample_ss\sm-add.PNG "Add Question")
-![Edit Question](.\sample_ss\sm-edit.PNG "Edit Question")
+![Dashboard](sample_ss/sm1.PNG "Dashboard")
+![Management](sample_ss/sm2.PNG "Management")
+![Add Question](sample_ss/sm-add.PNG "Add Question")
+![Edit Question](sample_ss/sm-edit.PNG "Edit Question")
 
 
 
@@ -75,6 +75,6 @@ java -jar "survey-client-1.0.jar"
 ```
 
 ### Application Screenshots
-![Home](.\sample_ss\user1.PNG "Home")
-![Validation](.\sample_ss\user2.PNG "Validation")
-![Summary](.\sample_ss\user3.PNG "Summary")
+![Home](sample_ss/user1.PNG "Home")
+![Validation](sample_ss/user2.PNG "Validation")
+![Summary](sample_ss/user3.PNG "Summary")
