@@ -3,15 +3,15 @@
 
 ## Tech Stack / System Requirements
 
-Language: Java 24 (Oracle JDK)
-Framework: JavaFX 24.0.2
-Build tool: Apache Maven 3.9.8
-Database: SQLite 3.50.3.0
-Operating System: Windows 10/11 (or other OS supported by Java 24)
+- Language: Java 24 (Oracle JDK)
+- Framework: JavaFX 24.0.2
+- Build tool: Apache Maven 3.9.8
+- Database: SQLite 3.50.3.0
+- Operating System: Windows 10/11 (or other OS supported by Java 24)
 
 > [!IMPORTANT]
-> All dependencies, including JavaFX, are bundled in the fat JAR when executing `mvn clean package`.
-> Users only need Maven and compatible Java runtime. Ensure Maven and Java 24 runtime is installed and accessible in PATH.
+> - All dependencies, including JavaFX, are bundled in the fat JAR when executing `mvn clean package`.
+> - Users only need Maven and compatible Java runtime. Ensure Maven and Java 24 runtime is installed and accessible in PATH.
 
 ## Survey Maintenance Application
 
