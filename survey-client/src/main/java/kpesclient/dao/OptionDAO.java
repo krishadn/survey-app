@@ -1,4 +1,4 @@
-package indigo8solutions.dao;
+package kpesclient.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import indigo8solutions.model.Option;
+import kpesclient.model.Option;
 
 public class OptionDAO {
 

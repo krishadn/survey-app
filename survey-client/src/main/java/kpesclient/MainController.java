@@ -1,10 +1,8 @@
-package indigo8solutions;
+package kpesclient;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-import indigo8solutions.dao.QuestionDAO;
-import indigo8solutions.model.Question;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,6 +12,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
+import kpesclient.dao.QuestionDAO;
+import kpesclient.model.Question;
 
 public class MainController {
 

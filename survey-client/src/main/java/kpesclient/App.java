@@ -1,10 +1,10 @@
-package indigo8solutions;
+package kpesclient;
 
-import indigo8solutions.dao.Database;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import kpesclient.dao.Database;
 import javafx.scene.Parent;
 import javafx.scene.image.Image;
 
@@ -16,7 +16,7 @@ public class App extends Application {
         Database.createTables();
         Parent root = FXMLLoader.load(getClass().getResource("/view/main.fxml"));
         Scene scene = new Scene(root);
-        Image icon = new Image(App.class.getResource("/images/icon.jpg").toExternalForm());
+        Image icon = new Image(App.class.getResource("/images/icon.png").toExternalForm());
         primaryStage.getIcons().add(icon);
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(600);

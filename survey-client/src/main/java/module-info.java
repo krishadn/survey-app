@@ -1,4 +1,4 @@
-module indigo8 {
+module kpesclient {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -7,9 +7,9 @@ module indigo8 {
     requires de.jensd.fx.glyphs.fontawesome;
 
 
-    opens indigo8solutions to javafx.fxml;
+    opens kpesclient to javafx.fxml;
 
-    exports indigo8solutions;
-    exports indigo8solutions.dao;
-    exports indigo8solutions.model;
+    exports kpesclient;
+    exports kpesclient.dao;
+    exports kpesclient.model;
 }

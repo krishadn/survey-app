@@ -1,4 +1,4 @@
-package indigo8solutions.model;
+package kpesclient.model;
 
 import java.util.Comparator;
 

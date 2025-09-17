@@ -1,14 +1,10 @@
-package indigo8solutions;
+package kpesclient;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import indigo8solutions.dao.OptionDAO;
-import indigo8solutions.dao.QuestionDAO;
-import indigo8solutions.model.Option;
-import indigo8solutions.model.Question;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -31,6 +27,10 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
+import kpesclient.dao.OptionDAO;
+import kpesclient.dao.QuestionDAO;
+import kpesclient.model.Option;
+import kpesclient.model.Question;
 
 public class SurveyController {
 
