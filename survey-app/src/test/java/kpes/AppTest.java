@@ -1,4 +1,4 @@
-package indigo8;
+package kpes;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

@@ -1,4 +1,4 @@
-package indigo8.controller;
+package kpes.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -6,12 +6,6 @@ import java.util.Optional;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import indigo8.App;
-import indigo8.dao.OptionDAO;
-import indigo8.dao.QuestionDAO;
-import indigo8.model.Option;
-import indigo8.model.Question;
-import indigo8.model.QuestionComparator;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
@@ -36,6 +30,12 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import kpes.App;
+import kpes.dao.OptionDAO;
+import kpes.dao.QuestionDAO;
+import kpes.model.Option;
+import kpes.model.Question;
+import kpes.model.QuestionComparator;
 
 public class ManageSurveyController {
 

@@ -1,14 +1,10 @@
-package indigo8.controller;
+package kpes.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import indigo8.dao.OptionDAO;
-import indigo8.dao.QuestionDAO;
-import indigo8.model.Option;
-import indigo8.model.Question;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
@@ -23,6 +19,10 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import kpes.dao.OptionDAO;
+import kpes.dao.QuestionDAO;
+import kpes.model.Option;
+import kpes.model.Question;
 
 public class DialogAddController {
 

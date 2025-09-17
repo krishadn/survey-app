@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="manageRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indigo8.controller.ManageSurveyController">
+<BorderPane fx:id="manageRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kpes.controller.ManageSurveyController">
    <top>
       <HBox alignment="CENTER_LEFT" prefHeight="136.0" prefWidth="984.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
@@ -35,7 +35,7 @@
                   </HBox>
                </children>
             </VBox>
-            <Region prefHeight="100.0" prefWidth="354.0" />
+            <Region prefHeight="100.0" prefWidth="354.0" HBox.hgrow="ALWAYS" />
             <Button fx:id="backToDashBtn" mnemonicParsing="false" text="Back to Dashboard">
                <graphic>
                   <FontAwesomeIconView glyphName="ARROW_CIRCLE_RIGHT" size="20" />

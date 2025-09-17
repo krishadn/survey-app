@@ -1,4 +1,4 @@
-module indigo8 {
+module kpes {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,11 +6,11 @@ module indigo8 {
     requires org.xerial.sqlitejdbc;
     requires de.jensd.fx.glyphs.fontawesome;
 
-    opens indigo8 to javafx.fxml;
-    opens indigo8.controller to javafx.fxml;
+    opens kpes to javafx.fxml;
+    opens kpes.controller to javafx.fxml;
 
-    exports indigo8;
-    exports indigo8.controller;
-    exports indigo8.dao;
-    exports indigo8.model;
+    exports kpes;
+    exports kpes.controller;
+    exports kpes.dao;
+    exports kpes.model;
 }

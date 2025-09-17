@@ -1,4 +1,4 @@
-package indigo8.dao;
+package kpes.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import indigo8.model.Question;
+import kpes.model.Question;
 
 public class QuestionDAO {
 

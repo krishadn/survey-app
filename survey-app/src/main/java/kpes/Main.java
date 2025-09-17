@@ -1,4 +1,4 @@
-package indigo8;
+package kpes;
 
 
 public class Main {
